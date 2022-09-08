@@ -81,7 +81,7 @@ header{
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: transparent;
     list-style: none;
