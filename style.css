@@ -8,8 +8,8 @@
 header{
     display: flex;
     width: 100%;
-    height: 10rem;
-    background: linear-gradient(to right,#be22be,#4242ee);
+    height: 9rem;
+    background: linear-gradient(to right,#a105a1,#4242ee);
     flex-direction: row;
     align-items: center;
 }
@@ -527,7 +527,7 @@ header{
 footer{
     width: 100%;
     height: 350px;
-    background: linear-gradient(to right,#be22be,#4242ee);
+    background: linear-gradient(to right,#a105a1,#4242ee);
     display: flex;
     align-items: center;
     justify-content: center;
