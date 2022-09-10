@@ -1,1331 +1,1352 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/ff31382a61.js" crossorigin="anonymous"></script>
-    <title>Eventos.com</title>
+	<meta charset="UTF-8">
+	<title>Eventos.com</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/ff31382a61.js" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
 </head>
-<body id="body">
-    
-    <!-- header -->
-
-    <header>
-          <section id="container_header">
-
-            <div id="containerMenu">
-                <div id="menu">
-                    <div class="menus"></div>
-                    <div class="menus"></div>
-                    <div class="menus"></div>
-                </div>
-            </div>
-
-            <div id="logoHead">
-                <h1>Logo</h1>
-            </div>
-      
-            <ul id="contLista">
-              <li id="li"><button class="btn btn--1">REGISTRARSE</button></li>
-              <li id="li"><button class="btn btn--2">LOGIN</button></li>
-              <li><i id="user" class="fa-solid fa-user"></i></li>
-            </ul>
-
-        </section>
-          
-    </header>
-    
-    <!-- main contenedor principal -->
-    
-    <main id="main">
-
-        <!-- contenedor cartas -->
-
-        <section id="slider">
-            <div class="slider">
-                <ul>
-                    <li><img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662602380/Conciertos/Demi-lovato_cezkzc.png" alt=""></li>
-                    <li><img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662602577/Conciertos/82d35267-33b6-4db0-b8db-1d2746547e3e_zo2j5e.jpg" alt=""></li>
-                    <li><img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662602883/Conciertos/7715d413-f4d9-4962-ba0a-02d54181f3b4_axbxuh.jpg" alt=""></li>
-                    <li><img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662602786/Conciertos/ba275345-ed91-4a99-af4c-ace6e5b88fa5_evqguj.jpg" alt=""></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- section 1  -->
-
-        <section id="section1">
-            <div id="container-titulos1">
-                <h1>Destacados</h1>
-            </div>
-        </section>
-
-        <section id="containerCards">
-
-            <div class="card">
-                
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662603025/Conciertos/62f10f03bd2ef_kel23h.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">LINIERS & MONT</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">MIE</p>
-                            <p class="fecha">07</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>LINIERS & MONT</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Comedia <br><br>
-                            Lugar: Teatro Jorge Eliécer Gaitán-Bogotá<br><br>
-                            Hora: 7:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 14 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
+<body>
+	<header>
+		<section id="container_header">
+
+		  <div id="containerMenu">
+			  <div id="menu">
+				<div class="btn-menu">
+					<label id="barras" for="btn-menu">☰</label>
+				</div>
+			  </div>
+		  </div>
+
+		  <div id="logoHead">
+			  <h1>Logo</h1>
+		  </div>
+	
+		  <ul id="contLista">
+			<li id="li"><button class="btn btn--1">REGISTRARSE</button></li>
+			<li id="li"><button class="btn btn--2">LOG IN</button></li>
+			<li><i id="user" class="fa-solid fa-user"></i></li>
+		  </ul>
+
+	  </section>
+		
+  </header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="#">Portafolio</a>
+			<a href="#">Servicios</a>
+			<a href="#">Suscribirse</a>
+			<a href="#">Facebook</a>
+			<a href="#">Youtube</a>
+			<a href="#">Instagram</a>
+		</nav>
+		<label class="btnX" for="btn-menu">✖️</label>
+
+        <div id="containerChange">
+            <p>Dark mode:</p>
+            
+        </div>
+		
+	</div>
+	
+</div>
+
+<!-- main contenedor principal -->
+    
+<main id="main">
+
+	<!-- contenedor cartas -->
+
+	<section id="slider">
+		<div class="slider">
+			<ul>
+				<li><img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662602380/Conciertos/Demi-lovato_cezkzc.png" alt=""></li>
+				<li><img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662602577/Conciertos/82d35267-33b6-4db0-b8db-1d2746547e3e_zo2j5e.jpg" alt=""></li>
+				<li><img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662602883/Conciertos/7715d413-f4d9-4962-ba0a-02d54181f3b4_axbxuh.jpg" alt=""></li>
+				<li><img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662602786/Conciertos/ba275345-ed91-4a99-af4c-ace6e5b88fa5_evqguj.jpg" alt=""></li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- section 1  -->
+
+	<section id="section1">
+		<div id="container-titulos1">
+			<h1>Destacados</h1>
+		</div>
+	</section>
+
+	<section id="containerCards">
+
+		<div class="card">
+			
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662603025/Conciertos/62f10f03bd2ef_kel23h.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">LINIERS & MONT</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">MIE</p>
+						<p class="fecha">07</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>LINIERS & MONT</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Comedia <br><br>
+						Lugar: Teatro Jorge Eliécer Gaitán-Bogotá<br><br>
+						Hora: 7:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 14 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662603266/Conciertos/62cc455f80ef9_onvid7.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">TEATRO DE PRAGA</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">JUE</p>
+						<p class="fecha">16</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>TEATRO NEGRO DE PRAGA</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Teatro <br><br>
+						Lugar: Auditorio Luis A. Calvo-Bucaramanga <br><br>
+						Hora: 8:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 8 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662603517/Conciertos/63121cd232aea_x0nj8r.png" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">ME IMPORTAS TOUR</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">VIE</p>
+						<p class="fecha">09</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>FIESTA OFICIAL ME IMPORTAS TOUR</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Otros <br><br>
+						Lugar: Movistar Arena - Bar Norte-Bogotá <br><br>
+						Hora: 11:00PM <br><br>
+						Apertura puertas: 9:00 PM <br><br>
+						Edad mínima de ingreso: 18 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662603707/Conciertos/6317b2452e059_jmlfrt.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">PEDRO FILARMÓNICO</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">DOM</p>
+						<p class="fecha">11</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>PEDRO AZNAR FILARMÓNICO</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Teatro <br><br>
+						Lugar: Teatro Colsubsidio Roberto Arias Perez-Bogotá<br><br>
+						Hora: 4:00PM <br><br>
+						Apertura puertas: 2:00 PM <br><br>
+						Edad mínima de ingreso: 8 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+			
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662604221/Conciertos/62b6647c3d0dc_wdmve5.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">PIAF THE SHOW</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">MAR</p>
+						<p class="fecha">14</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>PIAF THE SHOW 60 ANIVERSARIO TOUR MUNDIAL</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Conciertos<br><br>
+						Lugar: Teatro Mayor Julio Mario Santodomingo-Bogotá <br><br>
+						Hora: 7:30PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 7 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662604301/Conciertos/6297684d1dcc7_vzlgq7.png" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">CHUCHO Y PAQUITO</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">MAR</p>
+						<p class="fecha">13</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>CHUCHO VALDÉS Y PAQUITO D'RIVERA</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Conciertos <br><br>
+						Lugar: Teatro Municipal Jorge Eliecer Gaitán-Bogotá <br><br>
+						Hora: 8:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 14 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+			
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662665802/Conciertos/6319ecb353c60_ay6peq.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">DUKI YA SUPISTE TOUR</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">VIE</p>
+						<p class="fecha">16</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>DUKI YA SUPISTE TOUR</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Conciertos <br><br>
+						Lugar: Movistar Arena-Bogotá <br><br>
+						Hora: 9:00PM <br><br>
+						Apertura puertas: 6 Años <br><br>
+						Edad mínima de ingreso: 8 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+			
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662604478/Conciertos/6308ca52e5563_ykv9hp.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">VALLENATO SESSION</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">JUE</p>
+						<p class="fecha">22</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>JUANMADRUMS VALLENATO SESSION</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Conciertos <br><br>
+						Lugar: Teatro José Consuegra Higgins-Barranquilla <br><br>
+						Hora: 7:30PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: Todos
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+			
+		</div>
+
+	</section>
+
+	<!-- Recomendados -->
+
+	<section id="section1">
+		<div id="container-titulos2">
+			<h1>Recomendados</h1>
+		</div>
+	</section>
+
+	<!-- section 2 -->
+
+	<section id="containerCards">
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662604890/Conciertos/62f69f2260e75_sylfdb.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">SKETCH</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">VIE</p>
+						<p class="fecha">23</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>SKETCH YO TENGO EL CONTROL</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Teatro <br><br>
+						Lugar: Teatro Municipal Jorge Eliécer Gaitán-Bogotá<br><br>
+						Hora: 8:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 10 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662604937/Conciertos/630e6f484dfe4_ibskat.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">RAÚL DI BLASIO</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">SAB</p>
+						<p class="fecha">24</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>RAÚL DI BLASIO: EL PIANO DE AMÉRICA ÍNTIMO - TOUR 2022</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Conciertos <br><br>
+						Lugar: Teatro Municipal Jorge Eliecer Gaitan-Bogotá <br><br>
+						Hora: 7:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 7 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+			
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605001/Conciertos/6307d2f53ab5c_pqpetn.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">CURSO DE MILAGROS</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">SAB</p>
+						<p class="fecha">22</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>UN CURSO DE MILAGROS - CALI</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Foros <br><br>
+						Lugar: Club de Ejecutivos del Valle del Cauca-Cali <br><br>
+						Hora: 9:00AM <br><br>
+						Apertura puertas: 7:00 PM <br><br>
+						Edad mínima de ingreso: Todos
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605073/Conciertos/06150068-a078-40ca-9807-57344934cedf_lcxgob.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">STRYPER CONCIERTO</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">LUN</p>
+						<p class="fecha">10</p>
+						<p class="texto">OCT 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>STRYPER EN CONCIERTO</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Concierto <br><br>
+						Lugar: Teatro Municipal Jorge Eliecer Gaitan-Bogotá <br><br>
+						Hora: 8:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 10 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605154/Conciertos/63051ad13da26_yxmxvo.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">ESTÚPIDAMENTE GENIAL</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">JUE</p>
+						<p class="fecha">18</p>
+						<p class="texto">AGO 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>ESTÚPIDAMENTE GENIAL</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Teatro <br><br>
+						Lugar: Barrio Colombia-Medellín <br><br>
+						Hora: 8:00PM <br><br>
+						Apertura puertas: 7:00 PM <br><br>
+						Edad mínima de ingreso: 18 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605223/Conciertos/63121af3e6408_rfgdip.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">PINK FLOYD</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">VIE</p>
+						<p class="fecha">18</p>
+						<p class="texto">NOV 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>PINK FLOYD EL TRIBUTO SOÑADO</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Conciertos <br><br>
+						Lugar: Teatro Metropolitano José Gutiérrez Gómez-Medellín <br><br>
+						Hora: 8:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 12 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605359/Conciertos/62fff5cdf0162_yka9k9.png" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">EL RUIDO DEL SILECIO</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">SAB</p>
+						<p class="fecha">10</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>EL RUIDO DEL SILECIO</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Teatro <br><br>
+						Lugar: Teatro Santander-Bucaramanga <br><br>
+						Hora: 7:30PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 9 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605586/Conciertos/6305206cb311e_yuztja.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">YO, MEIRA DELMAR</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">SAB</p>
+						<p class="fecha">10</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>YO, MEIRA DELMAR</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Teatro <br><br>
+						Lugar: Teatro José Consuegra Higgins-Barranquilla <br><br>
+						Hora: 7:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 8 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+			
+		</div>
+
+	</section>
+
+	<!-- Los mas buscados -->
+
+	<section id="section1">
+		<div id="container-titulos3">
+			<h1>Los más buscados</h1>
+		</div>
+	</section>
+
+	<!-- section 3 -->
+
+	<section id="containerCards">
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605628/Conciertos/62e7dc45cc66b_fbbd4y.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">DHARMA TOUR</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">VIE</p>
+						<p class="fecha">28</p>
+						<p class="texto">OCT 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>SEBASTIAN YATRA DHARMA TOUR</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría:  Conciertos <br><br>
+						Lugar: Movistar Arena-Bogotá <br><br>
+						Hora: 8:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 6 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605706/Conciertos/630e2431b1d86_yo2z3e.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">EL REINO FANTÁSTICO</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">SAB</p>
+						<p class="fecha">01</p>
+						<p class="texto">OCT 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>EL REINO FANTÁSTICO DE LAS ORQUÍDEAS</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Familia <br><br>
+						Lugar: Teatro Municipal Enrique Buenaventura-Cali <br><br>
+						Hora: 3:30PM <br><br>
+						Apertura puertas: 2:00 PM <br><br>
+						Edad mínima de ingreso: 3 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605761/Conciertos/63165ea9ecc26_mbqnyy.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">LATINO MUSIC</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">MIE</p>
+						<p class="fecha">12</p>
+						<p class="texto">OCT 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>LATINO MUSIC AWARDS 2022</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Conciertos <br><br>
+						Lugar: Movistar Arena-Bogotá <br><br>
+						Hora: 6:30PM <br><br>
+						Apertura puertas: 4:00 PM <br><br>
+						Edad mínima de ingreso: 8 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605900/Conciertos/630f5b6c85446_ijgv5g.png" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">EMIR KUSTURICA</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">LUN</p>
+						<p class="fecha">26</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>EMIR KUSTURICA</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Conciertos <br><br>
+						Lugar: Teatro Mayor Julio Mario Santo Domingo-Bogotá <br><br>
+						Hora: 8:30PM <br><br>
+						Apertura puertas: 7:30 PM <br><br>
+						Edad mínima de ingreso: Todos
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662606019/Conciertos/630e0f596ae82_kfvela.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">MAGNO OPEN </p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">SAB</p>
+						<p class="fecha">24</p>
+						<p class="texto">SEP 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>MAGNO OPEN EXHIBICIÓN DE TENIS / CABAL- FARAH VS FALLA - GONZALEZ</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Deportes <br><br>
+						Lugar: Ruitoque Golf Country Club-Bucaramanga <br><br>
+						Hora: 1:00PM <br><br>
+						Apertura puertas: 11:00 AM <br><br>
+						Edad mínima de ingreso: 2 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662606094/Conciertos/62cc801d74bc7_lhya0l.png" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">KINGS OF CONVENIENCE</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">JUE</p>
+						<p class="fecha">01</p>
+						<p class="texto">DIC 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>KINGS OF CONVENIENCE</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Conciertos <br><br>
+						Lugar: Teatro Municipal Jorge Eliécer Gaitán-Bogotá <br><br>
+						Hora: 9:30PM <br><br>
+						Apertura puertas: 7:00 PM <br><br>
+						Edad mínima de ingreso: 7 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662606175/Conciertos/629e176cbf6be_yitwht.jpg" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">GIPSY KINGS</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">MAR</p>
+						<p class="fecha">15</p>
+						<p class="texto">NOV 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>GIPSY KINGS BY ANDRÉ REYES</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Conciertos <br><br>
+						Lugar: Teatro Mayor Julio Mario Santodomingo - Bogotá <br><br>
+						Hora: 7:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 7 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="face front">
+				<div class="card1">
+					<div class="cardImg">
+						<img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662606223/Conciertos/6316113fd08d6_vvpo4t.png" alt="">
+					</div>
+
+					<div class="cardTitulo">
+						<p class="tituloP">CLÁSICAS DEL DESPECHO</p>
+					</div>
+				</div>
+
+				<div class="card2">
+					<div class="izquierda">
+						<p class="texto">SAB</p>
+						<p class="fecha">01</p>
+						<p class="texto">OCT 2022</p>
+					</div>
+
+					<div class="derecha">
+						<div class="disponible">
+							<p class="tituloP2">Disponible</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="face back">
+				<div class="divh3">
+					<h3>CLÁSICAS DEL DESPECHO</h3>
+				</div>
+				<div>
+					<p class="divp">
+						Categoría: Familia <br><br>
+						Lugar: Teatro Cafam-Bogotá <br><br>
+						Hora: 8:00PM <br><br>
+						Apertura puertas: 6:00 PM <br><br>
+						Edad mínima de ingreso: 7 Años
+					</p>
+				</div>
+				<div class="divlink"><div class="link">
+					<a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
+				</div></div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<section id="section4">
+		<div id="container-titulos4">
+			<h1>Ver más eventos</h1>
+		</div>
+	</section>
+
+</main>
+
+<!-- footer  -->
+
+<footer>
+	<nav>
+		<ul id="ul-1">
+			<li>Siguenos en:</li>
+			<li>Categorias:</li>
+			<li>Menú:</li>
+		</ul>
+
+		<ul id="ulFooter">
+			<li>
+				<div class="divFooter">
+					<div id="containerIcons">
+						<i id="icons" class="fa-brands fa-instagram"></i>
+					</div>
+					
+					<p class="p">Instagram</p> 
+				</div>
+				<div class="divFooter">
+					<div id="containerIcons">
+						<i id="icons" class="fa-brands fa-youtube"></i>
+					</div>
+					
+					<p class="p">Youtube</p>
+				</div class="divFooter">
+				
+				<div class="divFooter">
+					<div id="containerIcons">
+						<i id="icons" class="fa-brands fa-twitter"></i>
+					</div>
+					
+					<p class="p">Twitter</p>
+				</div>
+
+				<div class="divFooter">
+					<div id="containerIcons">
+						<i id="icons" class="fa-brands fa-facebook"></i>
+					</div>
+					
+					<p class="p">Facebook</p>
+				</div>
+				
+			</li>
+			<li id="order">
+				<p class="p">Conciertos</p> 
+				<p class="p">Teatro</p>
+				<p class="p">Deportes</p>
+				<p class="p">Familia</p> 
+				<p class="p">Festival</p>
+				<p class="p">Otros</p>
+			</li>
+			<li id="order"><p class="p">Contáctenos</p> 
+				<p class="p">Puntos de venta</p>
+				<p class="p">Asistencia</p>
+				<p class="p">Ventas</p>
+				<p class="p">Términos de uso</p>
+				<p class="p">Politica de privacidad</p>
+			</li>
+			
+		</ul>
+	</nav>
+	<section id="section-footer">
+		<p id="p-footer1">© 2022 all rights reserved by Eventos.</p>
+		<p id="p-footer2">EventosCom@gmail.com</p>
+	</section>
+</footer>
 
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662603266/Conciertos/62cc455f80ef9_onvid7.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">TEATRO DE PRAGA</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">JUE</p>
-                            <p class="fecha">16</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>TEATRO NEGRO DE PRAGA</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Teatro <br><br>
-                            Lugar: Auditorio Luis A. Calvo-Bucaramanga <br><br>
-                            Hora: 8:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 8 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-    
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662603517/Conciertos/63121cd232aea_x0nj8r.png" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">ME IMPORTAS TOUR</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">VIE</p>
-                            <p class="fecha">09</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>FIESTA OFICIAL ME IMPORTAS TOUR</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Otros <br><br>
-                            Lugar: Movistar Arena - Bar Norte-Bogotá <br><br>
-                            Hora: 11:00PM <br><br>
-                            Apertura puertas: 9:00 PM <br><br>
-                            Edad mínima de ingreso: 18 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662603707/Conciertos/6317b2452e059_jmlfrt.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">PEDRO FILARMÓNICO</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">DOM</p>
-                            <p class="fecha">11</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>PEDRO AZNAR FILARMÓNICO</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Teatro <br><br>
-                            Lugar: Teatro Colsubsidio Roberto Arias Perez-Bogotá<br><br>
-                            Hora: 4:00PM <br><br>
-                            Apertura puertas: 2:00 PM <br><br>
-                            Edad mínima de ingreso: 8 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-                
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662604221/Conciertos/62b6647c3d0dc_wdmve5.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">PIAF THE SHOW</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">MAR</p>
-                            <p class="fecha">14</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>PIAF THE SHOW 60 ANIVERSARIO TOUR MUNDIAL</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Conciertos<br><br>
-                            Lugar: Teatro Mayor Julio Mario Santodomingo-Bogotá <br><br>
-                            Hora: 7:30PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 7 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662604301/Conciertos/6297684d1dcc7_vzlgq7.png" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">CHUCHO Y PAQUITO</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">MAR</p>
-                            <p class="fecha">13</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>CHUCHO VALDÉS Y PAQUITO D'RIVERA</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Conciertos <br><br>
-                            Lugar: Teatro Municipal Jorge Eliecer Gaitán-Bogotá <br><br>
-                            Hora: 8:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 14 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-                
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662665802/Conciertos/6319ecb353c60_ay6peq.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">DUKI YA SUPISTE TOUR</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">VIE</p>
-                            <p class="fecha">16</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>DUKI YA SUPISTE TOUR</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Conciertos <br><br>
-                            Lugar: Movistar Arena-Bogotá <br><br>
-                            Hora: 9:00PM <br><br>
-                            Apertura puertas: 6 Años <br><br>
-                            Edad mínima de ingreso: 8 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-                
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662604478/Conciertos/6308ca52e5563_ykv9hp.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">VALLENATO SESSION</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">JUE</p>
-                            <p class="fecha">22</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>JUANMADRUMS VALLENATO SESSION</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Conciertos <br><br>
-                            Lugar: Teatro José Consuegra Higgins-Barranquilla <br><br>
-                            Hora: 7:30PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: Todos
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-                
-            </div>
-
-        </section>
-
-        <!-- Recomendados -->
-
-        <section id="section1">
-            <div id="container-titulos2">
-                <h1>Recomendados</h1>
-            </div>
-        </section>
-
-        <!-- section 2 -->
-
-        <section id="containerCards">
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662604890/Conciertos/62f69f2260e75_sylfdb.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">SKETCH</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">VIE</p>
-                            <p class="fecha">23</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>SKETCH YO TENGO EL CONTROL</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Teatro <br><br>
-                            Lugar: Teatro Municipal Jorge Eliécer Gaitán-Bogotá<br><br>
-                            Hora: 8:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 10 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662604937/Conciertos/630e6f484dfe4_ibskat.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">RAÚL DI BLASIO</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">SAB</p>
-                            <p class="fecha">24</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>RAÚL DI BLASIO: EL PIANO DE AMÉRICA ÍNTIMO - TOUR 2022</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Conciertos <br><br>
-                            Lugar: Teatro Municipal Jorge Eliecer Gaitan-Bogotá <br><br>
-                            Hora: 7:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 7 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-                
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605001/Conciertos/6307d2f53ab5c_pqpetn.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">CURSO DE MILAGROS</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">SAB</p>
-                            <p class="fecha">22</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>UN CURSO DE MILAGROS - CALI</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Foros <br><br>
-                            Lugar: Club de Ejecutivos del Valle del Cauca-Cali <br><br>
-                            Hora: 9:00AM <br><br>
-                            Apertura puertas: 7:00 PM <br><br>
-                            Edad mínima de ingreso: Todos
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605073/Conciertos/06150068-a078-40ca-9807-57344934cedf_lcxgob.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">STRYPER CONCIERTO</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">LUN</p>
-                            <p class="fecha">10</p>
-                            <p class="texto">OCT 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>STRYPER EN CONCIERTO</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Concierto <br><br>
-                            Lugar: Teatro Municipal Jorge Eliecer Gaitan-Bogotá <br><br>
-                            Hora: 8:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 10 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605154/Conciertos/63051ad13da26_yxmxvo.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">ESTÚPIDAMENTE GENIAL</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">JUE</p>
-                            <p class="fecha">18</p>
-                            <p class="texto">AGO 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>ESTÚPIDAMENTE GENIAL</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Teatro <br><br>
-                            Lugar: Barrio Colombia-Medellín <br><br>
-                            Hora: 8:00PM <br><br>
-                            Apertura puertas: 7:00 PM <br><br>
-                            Edad mínima de ingreso: 18 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605223/Conciertos/63121af3e6408_rfgdip.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">PINK FLOYD</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">VIE</p>
-                            <p class="fecha">18</p>
-                            <p class="texto">NOV 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>PINK FLOYD EL TRIBUTO SOÑADO</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Conciertos <br><br>
-                            Lugar: Teatro Metropolitano José Gutiérrez Gómez-Medellín <br><br>
-                            Hora: 8:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 12 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605359/Conciertos/62fff5cdf0162_yka9k9.png" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">EL RUIDO DEL SILECIO</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">SAB</p>
-                            <p class="fecha">10</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>EL RUIDO DEL SILECIO</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Teatro <br><br>
-                            Lugar: Teatro Santander-Bucaramanga <br><br>
-                            Hora: 7:30PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 9 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605586/Conciertos/6305206cb311e_yuztja.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">YO, MEIRA DELMAR</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">SAB</p>
-                            <p class="fecha">10</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>YO, MEIRA DELMAR</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Teatro <br><br>
-                            Lugar: Teatro José Consuegra Higgins-Barranquilla <br><br>
-                            Hora: 7:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 8 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-                
-            </div>
-
-        </section>
-
-        <!-- Los mas buscados -->
-
-        <section id="section1">
-            <div id="container-titulos3">
-                <h1>Los más buscados</h1>
-            </div>
-        </section>
-
-        <!-- section 3 -->
-
-        <section id="containerCards">
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605628/Conciertos/62e7dc45cc66b_fbbd4y.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">DHARMA TOUR</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">VIE</p>
-                            <p class="fecha">28</p>
-                            <p class="texto">OCT 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>SEBASTIAN YATRA DHARMA TOUR</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría:  Conciertos <br><br>
-                            Lugar: Movistar Arena-Bogotá <br><br>
-                            Hora: 8:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 6 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605706/Conciertos/630e2431b1d86_yo2z3e.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">EL REINO FANTÁSTICO</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">SAB</p>
-                            <p class="fecha">01</p>
-                            <p class="texto">OCT 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>EL REINO FANTÁSTICO DE LAS ORQUÍDEAS</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Familia <br><br>
-                            Lugar: Teatro Municipal Enrique Buenaventura-Cali <br><br>
-                            Hora: 3:30PM <br><br>
-                            Apertura puertas: 2:00 PM <br><br>
-                            Edad mínima de ingreso: 3 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605761/Conciertos/63165ea9ecc26_mbqnyy.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">LATINO MUSIC</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">MIE</p>
-                            <p class="fecha">12</p>
-                            <p class="texto">OCT 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>LATINO MUSIC AWARDS 2022</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Conciertos <br><br>
-                            Lugar: Movistar Arena-Bogotá <br><br>
-                            Hora: 6:30PM <br><br>
-                            Apertura puertas: 4:00 PM <br><br>
-                            Edad mínima de ingreso: 8 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662605900/Conciertos/630f5b6c85446_ijgv5g.png" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">EMIR KUSTURICA</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">LUN</p>
-                            <p class="fecha">26</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>EMIR KUSTURICA</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Conciertos <br><br>
-                            Lugar: Teatro Mayor Julio Mario Santo Domingo-Bogotá <br><br>
-                            Hora: 8:30PM <br><br>
-                            Apertura puertas: 7:30 PM <br><br>
-                            Edad mínima de ingreso: Todos
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662606019/Conciertos/630e0f596ae82_kfvela.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">MAGNO OPEN </p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">SAB</p>
-                            <p class="fecha">24</p>
-                            <p class="texto">SEP 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>MAGNO OPEN EXHIBICIÓN DE TENIS / CABAL- FARAH VS FALLA - GONZALEZ</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Deportes <br><br>
-                            Lugar: Ruitoque Golf Country Club-Bucaramanga <br><br>
-                            Hora: 1:00PM <br><br>
-                            Apertura puertas: 11:00 AM <br><br>
-                            Edad mínima de ingreso: 2 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662606094/Conciertos/62cc801d74bc7_lhya0l.png" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">KINGS OF CONVENIENCE</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">JUE</p>
-                            <p class="fecha">01</p>
-                            <p class="texto">DIC 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>KINGS OF CONVENIENCE</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Conciertos <br><br>
-                            Lugar: Teatro Municipal Jorge Eliécer Gaitán-Bogotá <br><br>
-                            Hora: 9:30PM <br><br>
-                            Apertura puertas: 7:00 PM <br><br>
-                            Edad mínima de ingreso: 7 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662606175/Conciertos/629e176cbf6be_yitwht.jpg" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">GIPSY KINGS</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">MAR</p>
-                            <p class="fecha">15</p>
-                            <p class="texto">NOV 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>GIPSY KINGS BY ANDRÉ REYES</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Conciertos <br><br>
-                            Lugar: Teatro Mayor Julio Mario Santodomingo - Bogotá <br><br>
-                            Hora: 7:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 7 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="face front">
-                    <div class="card1">
-                        <div class="cardImg">
-                            <img src="https://res.cloudinary.com/dasuy0gun/image/upload/v1662606223/Conciertos/6316113fd08d6_vvpo4t.png" alt="">
-                        </div>
-    
-                        <div class="cardTitulo">
-                            <p class="tituloP">CLÁSICAS DEL DESPECHO</p>
-                        </div>
-                    </div>
-    
-                    <div class="card2">
-                        <div class="izquierda">
-                            <p class="texto">SAB</p>
-                            <p class="fecha">01</p>
-                            <p class="texto">OCT 2022</p>
-                        </div>
-    
-                        <div class="derecha">
-                            <div class="disponible">
-                                <p class="tituloP2">Disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="face back">
-                    <div class="divh3">
-                        <h3>CLÁSICAS DEL DESPECHO</h3>
-                    </div>
-                    <div>
-                        <p class="divp">
-                            Categoría: Familia <br><br>
-                            Lugar: Teatro Cafam-Bogotá <br><br>
-                            Hora: 8:00PM <br><br>
-                            Apertura puertas: 6:00 PM <br><br>
-                            Edad mínima de ingreso: 7 Años
-                        </p>
-                    </div>
-                    <div class="divlink"><div class="link">
-                        <a href="index.html" ><button class="btn btn--1">Comprar Entrada</button></a>
-                    </div></div>
-                </div>
-
-            </div>
-
-        </section>
-
-        <section id="section4">
-            <div id="container-titulos4">
-                <h1>Ver más eventos</h1>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- footer  -->
-
-    <footer>
-        <nav>
-            <ul id="ul-1">
-                <li>Siguenos en:</li>
-                <li>Categorias:</li>
-                <li>Menú:</li>
-            </ul>
-
-            <ul id="ulFooter">
-                <li>
-                    <div class="divFooter">
-                        <div id="containerIcons">
-                            <i id="icons" class="fa-brands fa-instagram"></i>
-                        </div>
-                        
-                        <p class="p">Instagram</p> 
-                    </div>
-                    <div class="divFooter">
-                        <div id="containerIcons">
-                            <i id="icons" class="fa-brands fa-youtube"></i>
-                        </div>
-                        
-                        <p class="p">Youtube</p>
-                    </div class="divFooter">
-                    
-                    <div class="divFooter">
-                        <div id="containerIcons">
-                            <i id="icons" class="fa-brands fa-twitter"></i>
-                        </div>
-                        
-                        <p class="p">Twitter</p>
-                    </div>
-
-                    <div class="divFooter">
-                        <div id="containerIcons">
-                            <i id="icons" class="fa-brands fa-facebook"></i>
-                        </div>
-                        
-                        <p class="p">Facebook</p>
-                    </div>
-                    
-                </li>
-                <li id="order">
-                    <p class="p">Conciertos</p> 
-                    <p class="p">Teatro</p>
-                    <p class="p">Deportes</p>
-                    <p class="p">Familia</p> 
-                    <p class="p">Festival</p>
-                    <p class="p">Otros</p>
-                </li>
-                <li id="order"><p class="p">Contáctenos</p> 
-                    <p class="p">Puntos de venta</p>
-                    <p class="p">Asistencia</p>
-                    <p class="p">Ventas</p>
-                    <p class="p">Términos de uso</p>
-                    <p class="p">Politica de privacidad</p>
-                </li>
-                
-            </ul>
-        </nav>
-        <section id="section-footer">
-            <p id="p-footer1">© 2022 all rights reserved by Eventos.</p>
-            <p id="p-footer2">EventosCom@gmail.com</p>
-        </section>
-    </footer>
-    
 </body>
 </html>
+
+
