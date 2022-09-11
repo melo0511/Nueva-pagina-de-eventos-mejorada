@@ -72,7 +72,7 @@ body{
 .cont-menu{
     width: 100%;
     max-width: 18rem;
-    background: #1c1c1c;
+    background: linear-gradient(to bottom,#a105a1,#4242ee);
     height: 100vh;
     position: relative;
     transition: all 500ms ease;
@@ -93,13 +93,13 @@ body{
     display: block;
     text-decoration: none;
     padding: 20px;
-    color: #c7c7c7;
+    color: #ffffff;
     border-left: 5px solid transparent;
     transition: all 400ms ease;
 }
 .cont-menu nav a:hover{
     border-left: 5px solid #c7c7c7;
-    background: #1f1f1f;
+    background: linear-gradient(to right,#a105a1 40%,#4242ee 20%,#a105a1 40%);
 }
 .cont-menu .btnX{
     position: absolute;
