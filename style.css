@@ -8,6 +8,7 @@ body{
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
+
 .capa{
     position: fixed;
     width: 100%;
@@ -23,10 +24,12 @@ body{
     color: white;
     cursor: pointer;
 }
+
 .container .menu{
     float: right;
     line-height: 100px;
 }
+
 .container .menu a{
     display: inline-block;
     padding: 15px;
@@ -38,6 +41,7 @@ body{
     font-size: 15px;
     margin-right: 5px;
 }
+
 .container .menu a:hover{
     border-bottom: 2px solid #c7c7c7;
     padding-bottom: 5px;
@@ -45,6 +49,7 @@ body{
 /*Fin de Estilos para el encabezado*/
 
 /*Menù lateral*/
+
 #btn-menu{
     display: none;
 }
@@ -57,7 +62,6 @@ body{
 
 .container-menu{
     position: absolute;
-    background: rgba(0,0,0,0.5);
     width: 100%;
     height: 100vh;
     top: 0;left: 0;
@@ -65,30 +69,40 @@ body{
     opacity: 0;
     visibility: hidden;
 }
+
 #btn-menu:checked ~ .container-menu{
     opacity: 1;
     visibility: visible;
 }
+
 .cont-menu{
     width: 100%;
     max-width: 18rem;
     background: linear-gradient(to bottom,#a105a1,#4242ee);
-    height: 100vh;
+    height: 90vh;
     position: relative;
     transition: all 500ms ease;
     transform: translateX(-100%);
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items:flex-start;
     flex-direction: column;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
+
 #btn-menu:checked ~ .container-menu .cont-menu{
     transform: translateX(0%);
 }
+
 .cont-menu nav{
     transform: translateY(15%);
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
 }
+
 .cont-menu nav a{
     display: block;
     text-decoration: none;
@@ -97,10 +111,12 @@ body{
     border-left: 5px solid transparent;
     transition: all 400ms ease;
 }
+
 .cont-menu nav a:hover{
     border-left: 5px solid #c7c7c7;
     background: linear-gradient(to right,#a105a1 40%,#4242ee 20%,#a105a1 40%);
 }
+
 .cont-menu .btnX{
     position: absolute;
     right: 5px;
@@ -119,7 +135,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: rgb(8, 70, 44);
+    background-color: transparent;
     gap: 2rem;
 }
 
@@ -130,7 +146,7 @@ body{
 
 #btnMode{
     font-size: 20px;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     color: white;
     background: none;
     border-radius: 15px;
@@ -154,8 +170,8 @@ body{
     height: 85%;
     background-color: transparent;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start;
     margin-left: 4rem;
     background-color: transparent;
 }
@@ -723,7 +739,7 @@ text-decoration: none;
 
 /* footer */
 
-footer{
+#footer{
 width: 100%;
 height: 350px;
 background: linear-gradient(to right,#a105a1,#4242ee);
